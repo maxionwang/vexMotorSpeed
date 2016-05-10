@@ -1,7 +1,7 @@
-#pragma config(Sensor, dgtl1,  quadEncoder,    sensorQuadEncoder)
-#pragma config(Sensor, dgtl3,  redLED,         sensorLEDtoVCC)
-#pragma config(Sensor, dgtl4,  grnLED,         sensorLEDtoVCC)
-#pragma config(Motor,  port1,           motor1,        tmotorVex393_HBridge, openLoop)
+#pragma config(Sensor,	dgtl1,	quadEncoder,	sensorQuadEncoder)
+#pragma config(Sensor,	dgtl3,	redLED,		sensorLEDtoVCC)
+#pragma config(Sensor,	dgtl4,	grnLED,		sensorLEDtoVCC)
+#pragma config(Motor,	port1,	motor1,		tmotorVex393_HBridge, openLoop)
 int rps = 1400;
 int testTime = 2;
 
